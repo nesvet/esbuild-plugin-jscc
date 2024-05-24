@@ -1,30 +1,30 @@
 {
-	"name": "esbuild-plugin-jscc",
-	"version": "1.0.14",
-	"description": "JSCC plugin for esbuild",
-	"type": "module",
-	"main": "./lib/index.js",
-	"module": "./lib/index.js",
-	"packageManager": "yarn@1.22.22",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/nesvet/esbuild-plugin-jscc.git"
-	},
-	"keywords": [
-		"esbuild",
-		"jscc",
-		"plugin"
-	],
-	"author": "Eugene Nesvetaev <dev@nesvet.dev> (https://nesvet.dev/)",
-	"license": "MIT",
-	"dependencies": {
-		"anymatch": "^3",
-		"jscc": "^1"
-	},
-	"devDependencies": {
-		"@nesvet/eslint-config": "^1"
-	}
+  "name": "esbuild-plugin-jscc",
+  "version": "1.0.14",
+  "description": "JSCC plugin for esbuild",
+  "type": "module",
+  "main": "./lib/index.js",
+  "module": "./lib/index.js",
+  "packageManager": "bun@1.1.9",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nesvet/esbuild-plugin-jscc.git"
+  },
+  "keywords": [
+    "esbuild",
+    "jscc",
+    "plugin"
+  ],
+  "author": "Eugene Nesvetaev <dev@nesvet.dev> (https://nesvet.dev/)",
+  "license": "MIT",
+  "dependencies": {
+    "anymatch": "^3",
+    "jscc": "^1"
+  },
+  "devDependencies": {
+    "@nesvet/eslint-config": "^1"
+  }
 }

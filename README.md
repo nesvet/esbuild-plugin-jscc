@@ -9,5 +9,5 @@ $ npm install esbuild-plugin-jscc --save-dev
 Or
 
 ```sh
-$ yarn add esbuild-plugin-jscc --dev
+$ bun add esbuild-plugin-jscc --dev
 ```
